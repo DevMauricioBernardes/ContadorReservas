@@ -38,8 +38,6 @@ export default class Produtos extends Component {
             textoBotaoLimpa: '',
         })
     }
-    
-
     render() {
         return(
         <View>
@@ -64,8 +62,7 @@ export default class Produtos extends Component {
                     <TouchableOpacity 
                     onPress={() => this.limpar()}>
                         <Text style={estiloProdutos.botao}>{this.state.textoBotaoLimpa}</Text>
-                    </TouchableOpacity>
-                    
+                    </TouchableOpacity>                    
                 </View>       
             </View>
         </View>
